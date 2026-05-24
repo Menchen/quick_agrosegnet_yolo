@@ -98,5 +98,7 @@ class DataPreparation:
 
 
 if __name__ == "__main__":
-    prep = DataPreparation()
+    prep = DataPreparation(
+        subset="default-tiny"
+    )  # change to "default" for full dataset ~ 60GB
     prep.run()

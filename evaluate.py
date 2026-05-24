@@ -98,7 +98,7 @@ class BEREvaluator:
 
 if __name__ == "__main__":
     # Point this to the dynamically generated best weights
-    weights_path = "./runs/segment/agro_shadow/yolo_seg_run-2/weights/best.pt"
+    weights_path = "./runs/segment/agro_shadow/yolo_seg_run/weights/best.pt"
     if os.path.exists(weights_path):
         evaluator = BEREvaluator(model_path=weights_path)
         evaluator.evaluate()
