@@ -1,0 +1,26 @@
+[workspace]
+authors = ["Menchen <huangmenchen@gmail.com>"]
+channels = ["conda-forge"]
+name = "ultra"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[system-requirements]
+cuda = "13.0"
+
+[tasks]
+
+[dependencies]
+notebook = ">=7.5.6,<8"
+ultralytics = ">=8.4.53,<9"
+opencv = ">=4.13.0,<5"
+numpy = ">=2.4.6,<3"
+pytorch = ">=2.10.0,<3"
+torchvision = ">=0.25.0,<0.26"
+pytorch-gpu = ">=2.10.0,<3"
+ipywidgets = ">=8.1.8,<9"
+datasets = ">=4.8.5,<5"
+pyyaml = ">=6.0.3,<7"
+pillow = ">=12.2.0,<13"
+scikit-learn = ">=1.8.0,<2"
+tqdm = ">=4.67.3,<5"
