@@ -14,7 +14,7 @@ pixi install # install dependencies
 pixi run python prep.py # download dataset and split into YOLO format
 ```
 
-By default, `cuda>=13.0` supported driver is required, and `default-tiny` subset is downloaded, ~13GB. Could be changed in `prep.py` to `default` for full dataset ~60GB.
+By default, `cuda>=13.0` supported driver is required, and `default-tiny` subset is downloaded, ~3GB, 12500 pair of images. Could be changed in `prep.py` to `default` for full dataset, 50,000 pair of images .
 
 
 After installing the dependencies, there's 3 command, each one for one task. Feel free to change the model type and best model path (YOLO generate new folder for each training in `runs` folders)
